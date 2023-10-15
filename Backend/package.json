@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend of the doctors appointment system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm run dev --prefix ../Frontend",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "Doctors-Appointment-system"
+  ],
+  "author": "Muzzammil Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
