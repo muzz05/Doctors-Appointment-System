@@ -70,7 +70,7 @@ const getUserController = async (req, res, next) => {
 
 const applyDoctorController = async (req, res, next) => {
   try {
-    const newDoctor = new Doctor({ ...req.body, status: "pending" });
+    const newDoctor = new Doctor({ ...req.body, status: "Pending" });
     await newDoctor.save();
     const adminUser = await User.findOne({ isAdmin: true });
     const notification = adminUser.notification;
