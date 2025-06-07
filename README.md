@@ -1,6 +1,9 @@
 # Doctors-Appointment-System
 
 This is a Fully Functional Doctors Appoinment System Based on the MERN Stack
+
+![Under Development](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 ## Features
 
 - User, Admin, Doctor Authentication System
